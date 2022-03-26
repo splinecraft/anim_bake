@@ -10,6 +10,13 @@ In addition, the tool has settings to automatically bake all animation layers, a
 time range.
 
 Author: Eric Luhta
+
+To use, install in your maya scripts directory and run with the following python commands:
+
+import anim_bake
+reload(anim_bake)
+anim_bake.window_ui()
+
 """
 
 class AnimBake():
